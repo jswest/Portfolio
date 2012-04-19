@@ -1,0 +1,276 @@
+* {
+  color: inherit;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none; }
+
+div {
+  position: relative;
+  display: block; }
+
+p,
+blockquote {
+  color: black;
+  font-family: "Fanwood";
+  font-size: 14px;
+  line-height: 36px; }
+
+blockquote p {
+  line-height: 24px;
+  margin: 0px 20px; }
+
+p em {
+  font-family: "Fanwood Italic";
+  font-style: regular; }
+
+li {
+  float: left; }
+
+nav#primary-menu-wrapper {
+  background-color: #e65a6e;
+  position: absolute;
+  top: -531px;
+  right: 50px;
+  z-index: 2;
+  width: 75px;
+  height: 531px; }
+  nav#primary-menu-wrapper ul#primary-menu {
+    margin-top: 75px;
+    width: 75px;
+    height: 381px; }
+    nav#primary-menu-wrapper ul#primary-menu li.primary-menu-li:last-child {
+      border-bottom: 1px solid white; }
+    nav#primary-menu-wrapper ul#primary-menu li.primary-menu-li {
+      border-top: 1px solid white;
+      color: white;
+      cursor: pointer;
+      font-family: "League Gothic";
+      font-size: 25px;
+      line-height: 75px;
+      text-align: center;
+      width: 75px;
+      height: 75px; }
+    nav#primary-menu-wrapper ul#primary-menu li.primary-menu-li:hover,
+    nav#primary-menu-wrapper ul#primary-menu li.current {
+      background-color: white;
+      color: #e65a6e; }
+
+#content-wrapper {
+  margin-top: -300px;
+  position: absolute;
+  top: 50%;
+  left: -800px;
+  width: 800px;
+  height: 600px; }
+  #content-wrapper #primary-image-wrapper,
+  #content-wrapper #about-wrapper,
+  #content-wrapper #design-wrapper,
+  #content-wrapper #writing-wrapper,
+  #content-wrapper #design-page-wrapper {
+    margin-top: -300px;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    width: 800px;
+    height: 600px; }
+  #content-wrapper header#primary-header hgroup h1 {
+    color: white;
+    font-family: "League Gothic";
+    font-size: 300px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 300px;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    text-align: center;
+    text-transform: uppercase;
+    width: 800px;
+    height: 600px; }
+  #content-wrapper #about-wrapper {
+    background-color: #fae164; }
+    #content-wrapper #about-wrapper header#about-page-header {
+      color: white;
+      font-family: "League Gothic";
+      font-size: 100px;
+      line-height: 100px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 800px; }
+    #content-wrapper #about-wrapper #p-wrapper {
+      margin-left: -200px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 400px; }
+      #content-wrapper #about-wrapper #p-wrapper p {
+        color: black;
+        font-family: "Fanwood";
+        font-size: 20px;
+        line-height: 40px; }
+  #content-wrapper #primary-image-wrapper {
+    background-color: #006496; }
+  #content-wrapper #writing-wrapper {
+    background-color: #affa64; }
+    #content-wrapper #writing-wrapper header#writing-page-header {
+      color: white;
+      font-family: "League Gothic";
+      font-size: 100px;
+      line-height: 100px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      text-align: right;
+      width: 800px; }
+    #content-wrapper #writing-wrapper ul#writing-menu {
+      margin-top: -80px;
+      margin-left: -200px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 400px; }
+      #content-wrapper #writing-wrapper ul#writing-menu li.writing-menu-li {
+        cursor: pointer;
+        font-family: "League Gothic";
+        font-size: 40px;
+        line-height: 40px;
+        text-transform: uppercase;
+        width: 400px;
+        height: 40px; }
+  #content-wrapper #design-wrapper {
+    background-color: white; }
+    #content-wrapper #design-wrapper header#design-page-header {
+      color: #006496;
+      font-family: "League Gothic";
+      font-size: 100px;
+      line-height: 100px;
+      position: absolute;
+      bottom: 0;
+      right: 0; }
+    #content-wrapper #design-wrapper .design-thumb-wrapper {
+      float: left;
+      width: 200px;
+      height: 200px; }
+      #content-wrapper #design-wrapper .design-thumb-wrapper img.design-thumb {
+        cursor: pointer;
+        display: none;
+        float: left;
+        width: 200px;
+        height: 200px; }
+  #content-wrapper #design-page-wrapper header.design-header {
+    color: black;
+    font-family: "League Gothic";
+    font-size: 50px;
+    line-height: 50px;
+    position: absolute;
+    text-transform: uppercase;
+    bottom: 9px;
+    right: 0; }
+  #content-wrapper #design-page-wrapper .main-design-img-wrapper img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 400px; }
+  #content-wrapper #design-page-wrapper .design-blurb {
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 380px;
+    height: 380px; }
+    #content-wrapper #design-page-wrapper .design-blurb p {
+      color: black;
+      font-family: "Fanwood";
+      font-size: 20px;
+      line-height: 40px;
+      margin-left: -133.333px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 266.667px; }
+  #content-wrapper #design-page-wrapper .design-thumbs-wrapper {
+    position: absolute;
+    top: 70%;
+    right: 0; }
+    #content-wrapper #design-page-wrapper .design-thumbs-wrapper img {
+      float: left;
+      margin-right: 25px;
+      width: 50px;
+      height: 50px; }
+  #content-wrapper #design-page-wrapper .design-thumbs-wrapper img:last-child {
+    margin-right: 0; }
+  #content-wrapper #writing-page-wrapper {
+    background-color: #affa64;
+    width: 800px;
+    height: 600px; }
+    #content-wrapper #writing-page-wrapper header hgroup h3 {
+      color: #affa64;
+      font-family: "League Gothic";
+      font-size: 50px;
+      line-height: 50px;
+      position: absolute;
+      top: -65px;
+      right: 50px;
+      text-transform: lowercase; }
+    #content-wrapper #writing-page-wrapper header hgroup h1 {
+      color: white;
+      font-family: "League Gothic";
+      font-size: 150px;
+      line-height: 150px;
+      position: absolute;
+      top: -16px;
+      right: 0;
+      text-align: right;
+      text-transform: uppercase; }
+    #content-wrapper #writing-page-wrapper .article-wrapper {
+      margin-top: -160px;
+      margin-left: -160px;
+      overflow: hidden;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 320px;
+      height: 320px; }
+      #content-wrapper #writing-page-wrapper .article-wrapper p:first-child:first-letter {
+        float: left;
+        font-family: "league gothic";
+        font-size: 1500%;
+        margin-right: 10px; }
+      #content-wrapper #writing-page-wrapper .article-wrapper p {
+        color: black;
+        font-family: "fanwood";
+        margin: 36px 0;
+        text-align: justify; }
+      #content-wrapper #writing-page-wrapper .article-wrapper blockquote p:first-child:first-letter {
+        float: none;
+        font-family: "Fanwood";
+        font-size: 100%;
+        margin-right: 0; }
+  #content-wrapper h2.article-back-button,
+  #content-wrapper h2.design-back-button {
+    color: #7d7d7d;
+    cursor: pointer;
+    font-family: "League Gothic";
+    position: absolute;
+    bottom: 0;
+    left: 20px; }
+  #content-wrapper .control {
+    background-color: white;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-left: 185px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px; }
+  #content-wrapper #up {
+    margin-top: -50px; }
+  #content-wrapper #down {
+    margin-top: 50px; }

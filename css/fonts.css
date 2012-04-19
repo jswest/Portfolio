@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'League Gothic';
+    src: url('fonts/League_Gothic-webfont.eot');
+    src: url('fonts/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/League_Gothic-webfont.woff') format('woff'),
+         url('fonts/League_Gothic-webfont.ttf') format('truetype'),
+         url('fonts/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Fanwood';
+    src: url('fonts/Fanwood-webfont.eot');
+    src: url('fonts/Fanwood-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Fanwood-webfont.woff') format('woff'),
+         url('fonts/Fanwood-webfont.ttf') format('truetype'),
+         url('fonts/Fanwood-webfont.svg#FanwoodRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Fanwood Italic';
+    src: url('fonts/Fanwood-Italic-webfont.eot');
+    src: url('fonts/Fanwood-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Fanwood-Italic-webfont.woff') format('woff'),
+         url('fonts/Fanwood-Italic-webfont.ttf') format('truetype'),
+         url('fonts/Fanwood-Italic-webfont.svg#FanwoodItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
